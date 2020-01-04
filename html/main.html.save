@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+</head>
+
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="FullStack">> Full Stack Developer</a>
+            <a href="GameDevelopment">> Unity 3D & C#</a>
+            <a href="StarCraft2">> Starcraft 2</a>
+            <a href="Resume">> Resume</a>
+        </div>
+    </div>
+</body>
+
+</html>
