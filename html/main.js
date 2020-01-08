@@ -1,4 +1,8 @@
-    /* When the user clicks on the button, 
+function myFunction1(x) {
+    x.classList.toggle("change");
+  }
+
+/* When the user clicks on the button, 
                     toggle between hiding and showing the dropdown content */
 
     function myFunction() {
