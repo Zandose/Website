@@ -1,5 +1,12 @@
 function myFunction1(x) {
     x.classList.toggle("change");
+    document.getElementById("myDropdown1").classList.toggle("show");
+    var dropdowns = document.getElementsByClassName("container-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
   }
 
 /* When the user clicks on the button, 
