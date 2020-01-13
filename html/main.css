@@ -17,7 +17,8 @@
 
 html{
 	background:url('../img/background.jpg') #fefefe;
-  position:relative;
+  position:absolute;
+  
 }
 
 body{
