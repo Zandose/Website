@@ -17,7 +17,7 @@
 
 html{
 	background:url('../img/background.jpg') #fefefe;
-  position:absolute;
+  position:relative;
   
 }
 
@@ -49,7 +49,7 @@ section, footer, nav{
 
 #colorNav > ul{
 	width: 450px; /* Increase when adding more menu items */
-	margin:0 auto;
+	margin:0 0;
 }
 
 #colorNav > ul > li{ /* will style only the top level li */
