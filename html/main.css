@@ -47,7 +47,7 @@ section, footer, nav{
 
 
 #colorNav > ul{
-	width: 1000px; /* Increase when adding more menu items */
+	width: 2000px; /* Increase when adding more menu items */
 	margin:0 0;
 }
 
@@ -133,7 +133,7 @@ section, footer, nav{
 /* transition animation on hover */
 
 #colorNav li:hover ul{
-	max-height:200px; /* Increase when adding more dropdown items */
+	max-height:300px; /* Increase when adding more dropdown items */
 }
 
 
