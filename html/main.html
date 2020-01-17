@@ -14,7 +14,9 @@
 </head>
 
 <div w3-include-html="/Menu/Menu.html"></div>
-<script>open("/Menu/Menu.html")</script>
+
+
+
 <script>
     function includeHTML() {
       var z, i, elmnt, file, xhttp;
@@ -48,6 +50,8 @@
 <script>
     function Menu() {
       document.getElementsByTagName("*").getAttribute("w3-include-html").open("GET", this, true);
+
+      open("/Menu/Menu.html") 
     }
     </script>
 
