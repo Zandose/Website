@@ -18,7 +18,7 @@
 
 <script>
     function Menu() {
-      document.getElementsByTagName("Menu").includeHTML();
+      document.getElementsByTagName("*").getAttribute("w3-include-html").innerHTML.open("GET", this, true);
     }
     </script>
 
