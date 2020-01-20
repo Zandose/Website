@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*[role=button] {
+	display: inline-block;
+	padding: 2ex 1.5em;
+}
+
+.menu {
+	background-color: DodgerBlue;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+}
+
+.menu a {
+	display: block;
+}
+
+.menu a:hover, .share a:focus {
+  background-color: RoyalBlue;
+}
+
+.menu menu {
+	display: none;
+}
+
+.menu:hover menu,
+.menu:focus-within menu
+{
+  display: block;
+  top: 40px; left: 40px;	top: 100%;
+	border: 1px line black;
+	background-color: white;
+	text-align: left;
+}
