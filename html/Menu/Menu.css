@@ -6,6 +6,11 @@
 *[role=button] {
 	display: inline-block;
 	padding: 2ex 1.5em;
+	image:
+}
+
+.menu img {
+	width: 150px;
 }
 
 .menu {
